@@ -19,23 +19,18 @@ html {
 }
 
 .title-container {
-  height: 50px;
-}
-
-.title-styles {
-  font-family: 'Raleway', sans-serif;
-  font-size: 250%;
+  height: 5rem;
 }
 
 .header-icon {
-  height: 150px;
-  width: 150px;
+  height: 15rem;
+  width: 15rem;
 }
 
 header {
   position: relative;
-  height: 520px;
-  min-height: 450px;
+  height: 52rem;
+  min-height: 45rem;
   width: 100%;
   background-size: cover;
   -webkit-background-size: cover;
@@ -46,63 +41,66 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 150px;
+  padding-top: 15rem;
   padding-bottom: 0;
+  h1 {
+    font-size: 4.5rem;
+    text-align: center;
+    font-weight: 600 !important;
+    color: #353239;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto 1.8rem auto;
+    width: 100%;
+  }
+  .title-styles {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+  }
 }
 
 .language-icon {
-  font-size: 50px;
+  font-size: 5rem;
   cursor: pointer;
 }
 
 .project-date {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 8px 15px 2px 15px;
+  padding: 0.8rem 1.5rem 0.2rem 1.5rem;
   position: relative;
   z-index: -500;
-  border-top: 5px solid #696969;
-  border-radius: 0 0 5px 5px;
+  border-top: 0.5rem solid #696969;
+  border-radius: 0 0 0.5rem 0.5rem;
   background-color: #696969;
   color: white;
 }
 
 .skills-tile {
   background-color: transparentize(#f8f5f4, 0.95);
-  padding: 10px 10px 5px 10px;
-  width: 100px;
-  margin: 5px 0 5px 0;
-  border-radius: 8px;
+  padding: 1rem 1rem 0.5rem 1rem;
+  width: 10rem;
+  margin: 0.5rem 0 0.5rem 0;
+  border-radius: 0.8rem;
 }
 
 .language {
-  font-size: 25px;
+  font-size: 2.5rem;
   background-color: $lightThPrimary;
-  padding-bottom: 10px;
-  padding-top: 80px;
-}
-
-header h1 {
-  font-size: 400%;
-  text-align: center;
-  font-weight: 600 !important;
-  color: #353239;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 0 auto 18px auto;
-  width: 100%;
+  padding-bottom: 1rem;
+  padding-top: 8rem;
 }
 
 .slider-image {
-  border: 5px solid #d7caaa;
+  border: 0.5rem solid #d7caaa;
 }
 
 .slider-tab {
   background-color: #d7caaa;
-  height: 25px;
+  height: 2.5rem;
 }
 
 .slider-iconfiy {
-  margin-top: 10px;
+  margin-top: 1rem;
 }
 
 .styles_typicalWrapper__1_Uvh::after {
@@ -117,9 +115,9 @@ header h1 {
 
 #about h1 {
   padding-top: 5%;
-  font: 18px/24px 'opensans-bold', sans-serif;
+  font: 1.8rem/2.4rem 'opensans-bold', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 0.3rem;
   color: black;
   text-align: center;
 }
@@ -133,12 +131,12 @@ header h1 {
   background: #ffffff;
   display: inline-block;
   margin: 0 auto 5% auto;
-  padding: 10px 10px 5px;
+  padding: 1rem 1rem 0.5rem;
   text-align: center;
   text-decoration: none;
-  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.3);
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   transition: all 0.2s linear;
@@ -148,10 +146,10 @@ header h1 {
 
 .foto div:after {
   color: #333;
-  font-size: 25px;
+  font-size: 2.5rem;
   content: attr(title);
   position: relative;
-  top: 15px;
+  top: 1.5rem;
 }
 
 .foto div:hover {
@@ -159,35 +157,35 @@ header h1 {
   -moz-transform: scale(1.01);
   transform: scale(1.01);
   z-index: 10;
-  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
-  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.7);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.7);
 }
 
 .project-title-settings {
   margin-top: 5%;
-  font: 18px/24px 'opensans-bold', sans-serif;
+  font: 1.8rem/2.4rem 'opensans-bold', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 0.3rem;
   color: black;
   text-align: center;
 }
 
 .polaroid img {
   display: block;
-  max-width: 200px;
+  max-width: 20rem;
 }
 
 .polaroid span {
   background: #ffffff;
   display: inline-block;
-  margin: 55px 75px 30px;
-  padding: 15px 15px 30px;
+  margin: 5.5rem 7.5rem 3rem;
+  padding: 1.5rem 1.5rem 3rem;
   text-align: center;
   text-decoration: none;
-  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.3);
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   transition: all 0.2s linear;
@@ -209,9 +207,9 @@ header h1 {
 }
 
 #preview {
-  width: 500px;
+  width: 50rem;
   background-color: #ebeaf5;
-  padding: 15px;
+  padding: 1.5rem;
   position: relative;
   margin-bottom: 15%;
 }
@@ -233,9 +231,9 @@ header h1 {
 }
 
 .main-badge {
-  font-size: 13px !important;
+  font-size: 1.3rem !important;
   text-align: left !important;
-  padding: 5px 8px 5px 8px !important;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem !important;
   vertical-align: baseline;
   background-color: #ae944f !important;
   color: white;
@@ -244,9 +242,9 @@ header h1 {
 }
 
 .experience-badge {
-  font-size: 11px !important;
+  font-size: 1.1rem !important;
   text-align: left !important;
-  padding: 5px 8px 5px 8px !important;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem !important;
   vertical-align: baseline;
   background-color: #f9f5e9 !important;
   color: black;
@@ -259,7 +257,7 @@ header h1 {
   margin: 0 !important;
 }
 
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 117rem) {
   .experience-icon {
     font-size: 170%;
     margin-top: 27%;
@@ -279,26 +277,26 @@ header h1 {
 }
 
 .bars .skills {
-  margin-top: 36px;
+  margin-top: 3.6rem;
   list-style: none;
 }
 
 .bars li {
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
   background: #ccc;
-  height: 42px;
-  border-radius: 3px;
+  height: 4.2rem;
+  border-radius: 0.3rem;
 }
 
 .bars li em {
-  font: 15px 'opensans-bold', sans-serif;
+  font: 1.5rem 'opensans-bold', sans-serif;
   color: #313131;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
   font-weight: normal;
   position: relative;
-  top: -36px;
+  top: -3.6rem;
 }
 
 .bar-expand {
@@ -306,17 +304,17 @@ header h1 {
   left: 0;
   top: 0;
   margin: 0;
-  padding-right: 24px;
+  padding-right: 2.4rem;
   background: #313131;
   display: inline-block;
-  height: 42px;
-  line-height: 42px;
-  border-radius: 3px 0 0 3px;
+  height: 4.2rem;
+  line-height: 4.2rem;
+  border-radius: 0.3rem 0 0 0.3rem;
 }
 
 .modal-close {
   text-align: right;
-  padding: 10px 15px 10px 15px;
+  padding: 1rem 1.5rem 1rem 1.5rem;
   cursor: pointer;
 }
 
@@ -327,9 +325,9 @@ header h1 {
 
 .modal-description {
   text-align: justify;
-  padding: 5px 5px 0 5px;
-  margin-bottom: 20px;
-  font-size: 12px;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
 }
 
 .awssld__next {
@@ -351,7 +349,7 @@ header h1 {
 
 .portfolio-item {
   max-width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
   text-align: center;
 }
 
@@ -374,18 +372,18 @@ header h1 {
   font-size: 1.5rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 57.6rem) {
   .portfolio .closeButtonResponsive {
     display: block;
   }
   .portfolio .portfolio-item {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
   }
 }
 
 #skills {
   background: $lightThSecondary;
-  min-height: 200px;
+  min-height: 20rem;
   width: 100%;
   overflow: hidden;
   padding-bottom: 10%;
@@ -394,9 +392,9 @@ header h1 {
 .section-title {
   padding-top: 5%;
   padding-bottom: 5%;
-  font: 18px/24px 'opensans-bold', sans-serif;
+  font: 1.8rem/2.4rem 'opensans-bold', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 0.3rem;
   color: #fff;
   text-align: center;
 }
@@ -410,10 +408,10 @@ header h1 {
 
 footer {
   background: $lightThSecondary;
-  min-height: 100px;
+  min-height: 10rem;
   width: 100%;
   overflow: hidden;
-  font-size: 14px;
+  font-size: 1.4rem;
   color: white;
   position: relative;
   text-align: center;
@@ -430,6 +428,6 @@ footer a:focus {
 }
 
 .social-links {
-  margin-top: 50px;
-  font-size: 22px;
+  margin-top: 5rem;
+  font-size: 2.2rem;
 }
