@@ -2,6 +2,9 @@
 @import './scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
+$lightThPrimary: #f6d699;
+$lightThSecondary: #c2a878;
+
 html {
   font-size: 62.5%;
   -webkit-font-smoothing: antialiased;
@@ -38,7 +41,7 @@ header {
   -webkit-background-size: cover;
   text-align: center;
   overflow: hidden;
-  background-color: #e9d5a1;
+  background-color: $lightThPrimary;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -74,7 +77,7 @@ header {
 
 .language {
   font-size: 25px;
-  background-color: #e9d5a1;
+  background-color: $lightThPrimary;
   padding-bottom: 10px;
   padding-top: 80px;
 }
@@ -108,7 +111,7 @@ header h1 {
 }
 
 #about {
-  background: #fff;
+  background: $lightThSecondary;
   overflow: hidden;
 }
 
@@ -220,7 +223,7 @@ header h1 {
 }
 
 #resume {
-  background: #efe1bd;
+  background: $lightThPrimary;
 }
 
 .experience-icon {
@@ -342,7 +345,7 @@ header h1 {
 }
 
 #portfolio {
-  background: #efe1bd;
+  background: $lightThPrimary;
   padding-bottom: 5%;
 }
 
@@ -381,7 +384,7 @@ header h1 {
 }
 
 #skills {
-  background: #1f1f1f;
+  background: $lightThSecondary;
   min-height: 200px;
   width: 100%;
   overflow: hidden;
@@ -406,7 +409,7 @@ header h1 {
 }
 
 footer {
-  background: #1f1f1f;
+  background: $lightThSecondary;
   min-height: 100px;
   width: 100%;
   overflow: hidden;
