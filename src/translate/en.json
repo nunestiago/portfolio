@@ -18,7 +18,7 @@
         "http://lorempixel.com/350/310/",
         "images/portfolio/animal-shelter/p2.jpg"
       ],
-      "url": "",
+      "url": "#",
       "technologies": [
         {
           "class": "devicon-react-original colored",

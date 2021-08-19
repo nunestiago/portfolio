@@ -1,5 +1,6 @@
 import Emoji from 'a11y-react-emoji';
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import Switch from 'react-switch';
 import Typewriter from 'typewriter-effect';
 
@@ -25,6 +26,10 @@ const HeaderTitleTypeAnimation = React.memo(
 
 function Header() {
   const [checked, setChecked] = useState(false);
+  const { i18n } = useTranslation();
+  const changeLanguageHandler = (lang: string | undefined): void => {
+    i18n.changeLanguage(lang);
+  };
 
   function onThemeSwitchChange() {
     setChecked(!checked);
@@ -39,69 +44,109 @@ function Header() {
     body.setAttribute(dataThemeAttribute, newTheme);
   }
   return (
-    <header
-      id="home"
-      style={{ height: window.innerHeight - 140, display: "block" }}
-    >
-      <div className="row aligner" style={{ height: "100%" }}>
-        <div className="col-md-12">
-          <div>
-            <span
+    <>
+      <header
+        id="home"
+        style={{ height: window.innerHeight - 140, display: "block" }}
+      >
+        <div className="row aligner" style={{ height: "100%" }}>
+          <div className="col-md-12">
+            <div>
+              {/* <span
               className="iconify header-icon"
               data-icon="la:laptop-code"
               data-inline="false"
-            ></span>
-            <img src={codeCat} alt="coding cat" style={{ borderRadius: 16 }} />
-            <br />
-            <h1 className="mb-0">
-              <Typewriter
-                onInit={(typewriter) => {
-                  typewriter.typeString(self.basic_info.name).start();
-                }}
+            ></span> */}
+              <img
+                src={codeCat}
+                alt="coding cat"
+                style={{ borderRadius: 16 }}
               />
-            </h1>
-            <div className="title-container">
-              <HeaderTitleTypeAnimation />
+              <br />
+              <h1 className="mb-0">
+                <Typewriter
+                  onInit={(typewriter) => {
+                    typewriter.typeString(self.basic_info.name).start();
+                  }}
+                />
+              </h1>
+              <div className="title-container">
+                <HeaderTitleTypeAnimation />
+              </div>
+              {/* TODO o boxsizing ::before e ::after do bootstrap fazem o switch sumir */}
+              <Switch
+                checked={checked}
+                onChange={onThemeSwitchChange}
+                offColor="#baaa80"
+                onColor="#353535"
+                className="react-switch mx-auto"
+                width={90}
+                height={40}
+                uncheckedIcon={
+                  <Emoji
+                    symbol="🌞"
+                    label="sun"
+                    style={{
+                      display: "block",
+                      height: "100%",
+                      fontSize: 27,
+                      textAlign: "center",
+                    }}
+                  />
+                }
+                checkedIcon={
+                  <Emoji
+                    symbol="🌙"
+                    label="moon"
+                    style={{
+                      display: "block",
+                      height: "100%",
+                      fontSize: 27,
+                      textAlign: "center",
+                    }}
+                  />
+                }
+                id="icon-switch"
+              />
             </div>
-            {/* TODO o boxsizing ::before e ::after do bootstrap fazem o switch sumir */}
-            <Switch
-              checked={checked}
-              onChange={onThemeSwitchChange}
-              offColor="#baaa80"
-              onColor="#353535"
-              className="react-switch mx-auto"
-              width={90}
-              height={40}
-              uncheckedIcon={
-                <Emoji
-                  symbol="🌞"
-                  label="sun"
-                  style={{
-                    display: "block",
-                    height: "100%",
-                    fontSize: 27,
-                    textAlign: "center",
-                  }}
-                />
-              }
-              checkedIcon={
-                <Emoji
-                  symbol="🌙"
-                  label="moon"
-                  style={{
-                    display: "block",
-                    height: "100%",
-                    fontSize: 27,
-                    textAlign: "center",
-                  }}
-                />
-              }
-              id="icon-switch"
-            />
           </div>
         </div>
+      </header>
+      <div className="col-md-12 mx-auto text-center language">
+        <div
+          onClick={() => changeLanguageHandler("pt")}
+          style={{ display: "inline" }}
+        >
+          <Emoji
+            symbol="🇧🇷"
+            label="brazilian flag"
+            style={{
+              height: "100%",
+              fontSize: 36,
+              textAlign: "center",
+              marginRight: 24,
+              cursor: "pointer",
+            }}
+          />
+        </div>
+        <div
+          onClick={() => changeLanguageHandler("en")}
+          style={{ display: "inline" }}
+        >
+          <Emoji
+            symbol="🇺🇸"
+            onClick={() => changeLanguageHandler("en")}
+            label="sun"
+            style={{
+              height: "100%",
+              fontSize: 36,
+              textAlign: "center",
+              cursor: "pointer",
+            }}
+          />
+        </div>
       </div>
-    </header>
+    </>
   );
 }
 

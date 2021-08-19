@@ -6,7 +6,6 @@ import translations from '../translate/en.json';
 function Projects() {
   const { t } = useTranslation();
   const data = translations.projects;
-  // TODO precisa passar pra const DATA ou não?
 
   return (
     <section id="portfolio">
@@ -43,7 +42,9 @@ function Projects() {
                       </p>
                       <p className="modal-description">
                         {t(`info.projects.${index}.description`)}
+                        <a href={key[1].url}> Link</a>
                       </p>
+
                       <div className="col-md-12 text-center">
                         <ul className="list-inline mx-auto">
                           {key[1].technologies.map((item, index) => (
