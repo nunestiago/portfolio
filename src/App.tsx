@@ -15,38 +15,38 @@ function App() {
   };
 
   return (
-    <div className='App'>
+    <div className="App">
       <Header />
-      <div className='col-md-12 mx-auto text-center language'>
+      <div className="col-md-12 mx-auto text-center language">
         <div
-          onClick={() => changeLanguageHandler('pt')}
-          style={{ display: 'inline' }}
+          onClick={() => changeLanguageHandler("pt")}
+          style={{ display: "inline" }}
         >
           <Emoji
-            symbol='🇧🇷'
-            label='brazilian flag'
+            symbol="🇧🇷"
+            label="brazilian flag"
             style={{
-              height: '100%',
+              height: "100%",
               fontSize: 36,
-              textAlign: 'center',
+              textAlign: "center",
               marginRight: 24,
-              cursor: 'pointer',
+              cursor: "pointer",
             }}
           />
         </div>
         <div
-          onClick={() => changeLanguageHandler('en')}
-          style={{ display: 'inline' }}
+          onClick={() => changeLanguageHandler("en")}
+          style={{ display: "inline" }}
         >
           <Emoji
-            symbol='🇺🇸'
-            onClick={() => changeLanguageHandler('en')}
-            label='sun'
+            symbol="🇺🇸"
+            onClick={() => changeLanguageHandler("en")}
+            label="sun"
             style={{
-              height: '100%',
+              height: "100%",
               fontSize: 36,
-              textAlign: 'center',
-              cursor: 'pointer',
+              textAlign: "center",
+              cursor: "pointer",
             }}
           />
         </div>

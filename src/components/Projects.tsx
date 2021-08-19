@@ -9,55 +9,54 @@ function Projects() {
   // TODO precisa passar pra const DATA ou não?
 
   return (
-    <section id='portfolio'>
-      <div className='col-md-12'>
-        <h1 className='section-title' style={{ color: 'black' }}>
-          <span>{t('info.basic_info.section_name.projects')}</span>
+    <section id="portfolio">
+      <div className="col-md-12">
+        <h1 className="section-title" style={{ color: "black" }}>
+          <span>{t("info.basic_info.section_name.projects")}</span>
         </h1>
-        <div className='col-md-12 mx-auto'>
-          <div className='row mx-auto'>
-            {' '}
+        <div className="col-md-12 mx-auto">
+          <div className="row mx-auto">
+            {" "}
             {Object.entries(data).map((key, index) => (
               <div
-                className='col-sm-12 col-md-6 col-lg-4'
+                className="col-sm-12 col-md-6 col-lg-4"
                 key={index}
-                style={{ cursor: 'pointer' }}
+                style={{ cursor: "pointer" }}
               >
-                <span className='portfolio-item d-block'>
-                  <div className='foto'>
+                <span className="portfolio-item d-block">
+                  <div className="foto">
                     <div>
-                      {key[1].images[0]}
                       <img
                         src={key[1].images[0]}
-                        alt='projectImages'
-                        height='230'
+                        alt="projectImages"
+                        height="230"
                         style={{
                           marginBottom: 0,
                           paddingBottom: 0,
-                          position: 'relative',
+                          position: "relative",
                         }}
                       />
-                      <span className='project-date'>{key[1].startDate}</span>
+                      <span className="project-date">{key[1].startDate}</span>
                       <br />
-                      <p className='project-title-settings mt-3'>
+                      <p className="project-title-settings mt-3">
                         {t(`info.projects.${index}.title`)}
                       </p>
-                      <p className='modal-description'>
+                      <p className="modal-description">
                         {t(`info.projects.${index}.description`)}
                       </p>
-                      <div className='col-md-12 text-center'>
-                        <ul className='list-inline mx-auto'>
+                      <div className="col-md-12 text-center">
+                        <ul className="list-inline mx-auto">
                           {key[1].technologies.map((item, index) => (
-                            <li className='list-inline-item mx-3' key={index}>
+                            <li className="list-inline-item mx-3" key={index}>
                               <span>
-                                <div className='text-center'>
+                                <div className="text-center">
                                   <i
                                     className={item.class}
-                                    style={{ fontSize: '300%' }}
+                                    style={{ fontSize: "300%" }}
                                   >
                                     <p
-                                      className='text-center'
-                                      style={{ fontSize: '30%' }}
+                                      className="text-center"
+                                      style={{ fontSize: "30%" }}
                                     >
                                       {item.name}
                                     </p>

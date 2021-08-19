@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hello world!",
-    "description": "I'm Tiago Nunes. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+    "description": "I'm Tiago Nunes. A fullstack developer looking for a Jr position. I'm on a fullstack WebDev bootcamp on Cubos Academy and I'm always learning. Facts about me: I worked on a cruise ship, have bachelor in Psychology and used to brew my own beer",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -11,98 +11,102 @@
   },
   "projects": [
     {
-      "title": "Animal Shelter",
-      "startDate": "2020",
-      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+      "title": "Portfolio",
+      "startDate": "2021",
+      "description": "Found this amazing portfolio layout by Dorota Gil on github and rewrote in Typescript with i-18-next to switch languages.",
       "images": [
-        "images/portfolio/animal-shelter/p1.jpg",
+        "http://lorempixel.com/350/310/",
         "images/portfolio/animal-shelter/p2.jpg"
       ],
       "url": "",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
-        },
-        {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        }
-      ]
-    },
-    {
-      "title": "Photography",
-      "startDate": "2018",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-      "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
-      ],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "devicon-react-original",
+          "class": "devicon-react-original colored",
           "name": "React"
         },
         {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        }
-      ]
-    },
-    {
-      "title": "3D Object Viewer",
-      "startDate": "2015",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-      "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
-      ],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
-        },
-        {
           "class": "devicon-typescript-plain",
           "name": "TypeScript"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-sass-original colored",
+          "name": "Sass"
+        }
+      ]
+    },
+    {
+      "title": "Market Cilindros",
+      "startDate": "2021",
+      "description": "Fullstack project built on the module 3 of the Bootcamp of Cubos Academy, built the backend with NodeJS, express, bcrypt and jwt. The Frontend was React and Material-UI. Deployed the front on Netlify and the back on Heroku",
+      "images": [
+        "http://lorempixel.com/350/310/",
+        "images/portfolio/photography/p2.jpg"
+      ],
+      "url": "https://marketcilindros.netlify.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-original colored",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain colored",
+          "name": "Node"
+        },
+        {
+          "class": "devicon-materialui-plain colored",
+          "name": "Material-UI"
+        }
+      ]
+    },
+    {
+      "title": "CuboFlix",
+      "startDate": "2021",
+      "description": "An app I build in order to iterate a Movie API, with a React frontend and also a layout of a possible cart.",
+      "images": [
+        "http://lorempixel.com/350/310/",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://sad-bhaskara-b1531b.netlify.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-original colored",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain colored",
+          "name": "JavaScript"
         }
       ]
     }
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
-      "mainTech": ["Angular 8/9/10"],
+      "company": "Your company!",
+      "title": "Developer Jr",
+      "years": "present",
+      "mainTech": ["ReactJS - NodeJS"],
       "technologies": [
-        "REST API",
-        "RxJS",
+        "Code",
+        "React",
+        "NodeJS",
+        "ReactJS",
         "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+        "TypeScript"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
-      "mainTech": ["Angular 7/8"],
-      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+      "company": "BairedDev",
+      "title": "Tech Recruiter",
+      "years": "02/2021 - 05/2021",
+      "mainTech": ["ERP"],
+      "technologies": ["Search", "Skype", "ERP"]
+    },
+    {
+      "company": "Celebrity - MSC",
+      "title": "Shorex Statt / Guest Services",
+      "years": "2012 - 2020",
+      "mainTech": ["Fidelio"],
+      "technologies": ["Ship", "Cruises", "Sales", "Customer Relations"]
     }
   ]
 }

@@ -34,8 +34,8 @@
         "level": "95"
       },
       {
-        "name": "Angular",
-        "class": "devicon-angularjs-plain",
+        "name": "React",
+        "class": "devicon-react-original",
         "level": "80"
       },
       {
@@ -59,13 +59,8 @@
         "level": "85"
       },
       {
-        "name": "C#",
-        "class": "devicon-csharp-plain",
-        "level": "65"
-      },
-      {
-        "name": "MySql",
-        "class": "devicon-mysql-plain",
+        "name": "PostgreSql",
+        "class": "devicon-postgresql-plain",
         "level": "60"
       }
     ]

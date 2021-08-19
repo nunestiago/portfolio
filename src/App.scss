@@ -1,6 +1,6 @@
-@import './scss/themes/theme-dark.scss';
-@import './scss/themes/theme-light.scss';
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+@import "./scss/themes/theme-dark.scss";
+@import "./scss/themes/theme-light.scss";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap");
 
 $lightThPrimary: #f6d699;
 $lightThSecondary: #c2a878;
@@ -48,12 +48,12 @@ header {
     text-align: center;
     font-weight: 600 !important;
     color: #353239;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     margin: 0 auto 1.8rem auto;
     width: 100%;
   }
   .title-styles {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 2.5rem;
   }
 }
@@ -65,7 +65,7 @@ header {
 
 .project-date {
   font-size: 1.6rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 0.8rem 1.5rem 0.2rem 1.5rem;
   position: relative;
   z-index: -500;
@@ -111,37 +111,39 @@ header {
 #about {
   background: $lightThSecondary;
   overflow: hidden;
+  h1 {
+    padding-top: 5%;
+    font: 1.8rem/2.4rem "opensans-bold", sans-serif;
+    // TODO porra é essa?
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    color: black;
+    text-align: center;
+  }
 }
 
-#about h1 {
-  padding-top: 5%;
-  font: 1.8rem/2.4rem 'opensans-bold', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.3rem;
-  color: black;
-  text-align: center;
-}
+.foto {
+  img {
+    display: block;
+    width: 100%;
+  }
 
-.foto img {
-  display: block;
-  width: 100%;
-}
-
-.foto div {
-  background: #ffffff;
-  display: inline-block;
-  margin: 0 auto 5% auto;
-  padding: 1rem 1rem 0.5rem;
-  text-align: center;
-  text-decoration: none;
-  -webkit-box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.3);
-  box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.3);
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-  z-index: 0;
-  position: relative;
+  div {
+    background: #ffffff;
+    display: inline-block;
+    margin: 0 auto 5% auto;
+    padding: 1rem 1rem 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    z-index: 0;
+    position: relative;
+  }
 }
 
 .foto div:after {
@@ -164,7 +166,7 @@ header {
 
 .project-title-settings {
   margin-top: 5%;
-  font: 1.8rem/2.4rem 'opensans-bold', sans-serif;
+  font: 1.8rem/2.4rem "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   color: black;
@@ -198,12 +200,12 @@ header {
 }
 
 .wave {
-  font-size: 160%;
+  font-size: 2rem;
 }
 
 .font-trebuchet {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 #preview {
@@ -230,39 +232,39 @@ header {
   text-align: center;
 }
 
-@media only screen and (max-width: 117rem) {
+@media only screen and (max-width: 1169px) {
   .experience-icon {
-    font-size: 4.2rem;
-    margin-top: 1rem;
+    font-size: 3.2rem;
+    margin-top: 0.5rem;
     text-align: center;
   }
 }
 
 .main-badge {
-  font-size: 1.3rem !important;
+  font-size: 1.4rem !important;
   text-align: left !important;
-  padding: 0.5rem 0.8rem 0.5rem 0.8rem !important;
+  padding: 0.5rem 0.8rem 0.2rem 0.8rem !important;
   vertical-align: baseline;
   background-color: #ae944f !important;
   color: white;
   font-weight: lighter !important;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .experience-badge {
   font-size: 1.1rem !important;
   text-align: left !important;
-  padding: 0.5rem 0.8rem 0.5rem 0.8rem !important;
+  padding: 0.5rem 0.8rem 0.2rem 0.8rem !important;
   vertical-align: baseline;
   background-color: #f9f5e9 !important;
   color: black;
   font-weight: lighter !important;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .vertical-timeline-element-date {
-  padding: 0 !important;
-  margin: 0 !important;
+  margin: 0 1rem !important;
+  font-size: 1.5rem !important;
 }
 
 .modal-inside .modal-content {
@@ -290,7 +292,7 @@ header {
 }
 
 .bars li em {
-  font: 1.5rem 'opensans-bold', sans-serif;
+  font: 1.5rem "opensans-bold", sans-serif;
   color: #313131;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -392,7 +394,7 @@ header {
 .section-title {
   padding-top: 5%;
   padding-bottom: 5%;
-  font: 1.8rem/2.4rem 'opensans-bold', sans-serif;
+  font: 1.8rem/2.4rem "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   color: #fff;
