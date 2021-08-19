@@ -225,9 +225,17 @@ header {
 }
 
 .experience-icon {
-  font-size: 300%;
-  margin-top: 25%;
+  font-size: 4.2rem;
+  margin-top: 1rem;
   text-align: center;
+}
+
+@media only screen and (max-width: 117rem) {
+  .experience-icon {
+    font-size: 4.2rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
 }
 
 .main-badge {
@@ -255,14 +263,6 @@ header {
 .vertical-timeline-element-date {
   padding: 0 !important;
   margin: 0 !important;
-}
-
-@media only screen and (max-width: 117rem) {
-  .experience-icon {
-    font-size: 170%;
-    margin-top: 27%;
-    text-align: center;
-  }
 }
 
 .modal-inside .modal-content {

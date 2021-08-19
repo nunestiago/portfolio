@@ -25,7 +25,7 @@ function Footer() {
               <a href='https://github.com/Dorota1997' rel='noopener noreferrer'>
                 Dorota Gil
               </a>{' '}
-              Code:
+              Dev:
               <a href='https://github.com/nunestiago'>{name}</a>
             </small>
           </div>
