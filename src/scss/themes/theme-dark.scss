@@ -1,5 +1,5 @@
-body[data-theme='dark'] {
-  @import '../dark-slider.scss';
+body[data-theme="dark"] {
+  @import "../dark-slider.scss";
 
   .slider-tab {
     background-color: #8c8c8c;
@@ -110,5 +110,12 @@ body[data-theme='dark'] {
 
   footer {
     background: #000;
+  }
+  .rtf--mb {
+    background-color: #272626 !important;
+  }
+
+  .rtf--ab {
+    background-color: #282828 !important;
   }
 }

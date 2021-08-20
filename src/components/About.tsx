@@ -1,3 +1,4 @@
+// eslint disable-next-line
 import Iconify from '@iconify/iconify';
 import { Icon } from '@iconify/react';
 import React from 'react';
@@ -13,7 +14,7 @@ function About() {
 
   return (
     <section id="about">
-      <div className="col-md-12">
+      <div className="container">
         <h1 style={{ color: "black" }}>
           <span>{t("info.basic_info.section_name.about")}</span>
         </h1>
@@ -22,7 +23,7 @@ function About() {
             <div className="polaroid">
               <span style={{ cursor: "auto" }}>
                 <img height="250px" src={profilepic} alt="Avatar placeholder" />
-                {/* TODO fix profile pic is one 1px wrong  */}
+
                 <Icon
                   icon="logos:nodejs"
                   style={{ fontSize: "350%", margin: "9% 5% 0 5%" }}

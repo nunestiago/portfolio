@@ -3,14 +3,14 @@ import 'bootstrap';
 
 import React from 'react';
 
-import { About, Experience, Footer, Header, Skills } from './components';
+import { About, Experience, FloatingIcons, Footer, Header, Skills } from './components';
 import Projects from './components/Projects';
 
 function App() {
   return (
     <div className="App">
+      <FloatingIcons />
       <Header />
-
       <About />
       <Projects />
       <Skills />

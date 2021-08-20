@@ -13,28 +13,30 @@ function Projects() {
         <h1 className="section-title" style={{ color: "black" }}>
           <span>{t("info.basic_info.section_name.projects")}</span>
         </h1>
-        <div className="col-md-12 mx-auto">
+        <div className="container mx-auto">
           <div className="row mx-auto">
             {" "}
             {Object.entries(data).map((key, index) => (
-              <div
-                className="col-sm-12 col-md-6 col-lg-4"
-                key={index}
-                style={{ cursor: "pointer" }}
-              >
+              <div className="col-sm-12 col-md-6 col-lg-4" key={index}>
                 <span className="portfolio-item d-block">
                   <div className="foto">
                     <div>
-                      <img
-                        src={key[1].images[0]}
-                        alt="projectImages"
-                        height="230"
-                        style={{
-                          marginBottom: 0,
-                          paddingBottom: 0,
-                          position: "relative",
-                        }}
-                      />
+                      <a
+                        href={key[1].url}
+                        rel="nofollow noreferrer"
+                        target="_blank"
+                      >
+                        <img
+                          src={key[1].images[0]}
+                          alt="projectImages"
+                          height="230"
+                          style={{
+                            marginBottom: 0,
+                            paddingBottom: 0,
+                            position: "relative",
+                          }}
+                        />
+                      </a>
                       <span className="project-date">{key[1].startDate}</span>
                       <br />
                       <p className="project-title-settings mt-3">
@@ -42,7 +44,6 @@ function Projects() {
                       </p>
                       <p className="modal-description">
                         {t(`info.projects.${index}.description`)}
-                        <a href={key[1].url}> Link</a>
                       </p>
 
                       <div className="col-md-12 text-center">

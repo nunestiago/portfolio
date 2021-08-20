@@ -14,10 +14,7 @@
       "title": "Portfolio",
       "startDate": "2021",
       "description": "Found this amazing portfolio layout by Dorota Gil on github and rewrote in Typescript with i-18-next to switch languages.",
-      "images": [
-        "http://lorempixel.com/350/310/",
-        "images/portfolio/animal-shelter/p2.jpg"
-      ],
+      "images": ["images/port.gif", "images/portfolio/animal-shelter/p2.jpg"],
       "url": "#",
       "technologies": [
         {
@@ -39,7 +36,7 @@
       "startDate": "2021",
       "description": "Fullstack project built on the module 3 of the Bootcamp of Cubos Academy, built the backend with NodeJS, express, bcrypt and jwt. The Frontend was React and Material-UI. Deployed the front on Netlify and the back on Heroku",
       "images": [
-        "http://lorempixel.com/350/310/",
+        "images/portfolio/MarketC.gif",
         "images/portfolio/photography/p2.jpg"
       ],
       "url": "https://marketcilindros.netlify.app/",
@@ -63,7 +60,7 @@
       "startDate": "2021",
       "description": "An app I build in order to iterate a Movie API, with a React frontend and also a layout of a possible cart.",
       "images": [
-        "http://lorempixel.com/350/310/",
+        "images/portfolio/Cuboflixsite.gif",
         "images/portfolio/adventure/p2.jpg"
       ],
       "url": "https://sad-bhaskara-b1531b.netlify.app/",
@@ -103,9 +100,9 @@
     },
     {
       "company": "Celebrity - MSC",
-      "title": "Shorex Statt / Guest Services",
+      "title": "Shorex Staff / Guest Services",
       "years": "2012 - 2020",
-      "mainTech": ["Fidelio"],
+      "mainTech": ["Fidelio, Excel"],
       "technologies": ["Ship", "Cruises", "Sales", "Customer Relations"]
     }
   ]
