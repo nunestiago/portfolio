@@ -130,8 +130,8 @@ header {
   div {
     background: #ffffff;
     display: inline-block;
-    margin: 0 auto 5% auto;
-    padding: 1rem 1rem 0.5rem;
+    margin: 0 auto 0 auto;
+    padding: 1rem 1rem 0;
     text-align: center;
     text-decoration: none;
     -webkit-transition: all 0.2s linear;
@@ -324,7 +324,7 @@ header {
 .modal-description {
   text-align: justify;
   padding: 0.5rem 0.5rem 0 0.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
   font-size: 1.2rem;
 }
 
@@ -347,6 +347,7 @@ header {
 
 .portfolio-item {
   max-width: 35rem;
+
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -429,13 +430,31 @@ footer a:focus {
   font-size: 2.2rem;
 }
 
-.rtf--mb {
-  background-color: #756649 !important;
-}
-
 .rtf--ab {
   background-color: #756649 !important;
   .fab {
     font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1169px) {
+  .rtf {
+    bottom: 0 !important;
+    right: 0 !important;
+    &--mb {
+      height: 4.5rem !important;
+      width: 4.5rem !important;
+    }
+    &--ab {
+      height: 4rem !important;
+      width: 4rem !important;
+      .fab {
+        font-size: 2.5rem;
+      }
+      &__c {
+        bottom: 0 !important;
+        right: 0 !important;
+      }
+    }
   }
 }

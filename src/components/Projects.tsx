@@ -54,7 +54,7 @@ function Projects() {
                                 <div className="text-center">
                                   <i
                                     className={item.class}
-                                    style={{ fontSize: "300%" }}
+                                    style={{ fontSize: "3.2rem" }}
                                   >
                                     <p
                                       className="text-center"

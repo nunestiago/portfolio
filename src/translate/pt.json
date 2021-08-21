@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Olá!",
-    "description": "Psicólogo de formação, visando qualificações na área de tecnologia para transição de carreira. Atuação com recrutamento em cargos em TI nas mais diversas especialidades. Experiência no desenvolvimento de pessoas e equipes, bem como relacionamento direto com clientes. Apto a treinar e se relacionar com pessoas e equipes com",
+    "description": "Psicólogo de formação, visando qualificações na área de desenvolcimento para transição de carreira. Atuação com recrutamento em cargos em TI nas mais diversas especialidades. Experiência no desenvolvimento de pessoas e equipes, bem como relacionamento direto com clientes. Apto a treinar e se relacionar com pessoas e equipes com alta diversidade. Experiência com metodologias ágeis.",
     "section_name": {
       "about": "Sobre",
       "projects": "Projetos",
@@ -11,9 +11,9 @@
   },
   "projects": [
     {
-      "title": "Animal Shelter",
-      "startDate": "2020",
-      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+      "title": "Portifólio",
+      "startDate": "2021",
+      "description": "Portfólio com layout feito por Dorota Gil, reescrevi em TypeScrtip, usei i-18-next para mudar a linguagem, além de bibliotecas como react-timeline e floating action buttons.",
       "images": [
         "images/portfolio/animal-shelter/p1.jpg",
         "images/portfolio/animal-shelter/p2.jpg"
@@ -35,9 +35,9 @@
       ]
     },
     {
-      "title": "Photography",
-      "startDate": "2018",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+      "title": "Market Cilindros",
+      "startDate": "2021",
+      "description": "Projeto Fullstack construído o backend com NodeJS, express, bcrypt e jwt. O frontend era React e Material-UI. Fiz deplo do front no Netlify e a do back no Heroku",
       "images": [
         "images/portfolio/photography/p1.jpg",
         "images/portfolio/photography/p2.jpg"
@@ -55,9 +55,9 @@
       ]
     },
     {
-      "title": "3D Object Viewer",
-      "startDate": "2015",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "title": "CuboFlix",
+      "startDate": "2021",
+      "description": "Um app que constrói para um site interativo com a API Movie DB, sempre atualizado com lançamentos e sucessos do momentos. Com um banner editável para promoções e eventos. Também possui login na navbar e um carrinho.",
       "images": [
         "images/portfolio/adventure/p1.jpg",
         "images/portfolio/adventure/p2.jpg"

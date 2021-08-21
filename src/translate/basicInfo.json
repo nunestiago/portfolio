@@ -34,14 +34,19 @@
         "level": "95"
       },
       {
+        "name": "Sass",
+        "class": "devicon-sass-original",
+        "level": "75"
+      },
+      {
         "name": "React",
         "class": "devicon-react-original",
         "level": "80"
       },
       {
-        "name": "TypeScript",
-        "class": "devicon-typescript-plain",
-        "level": "90"
+        "name": "Node",
+        "class": "devicon-nodejs-plain",
+        "level": "85"
       },
       {
         "name": "JavaScript",
@@ -49,14 +54,9 @@
         "level": "70"
       },
       {
-        "name": "Sass",
-        "class": "devicon-sass-original",
-        "level": "75"
-      },
-      {
-        "name": "Bootstrap",
-        "class": "devicon-bootstrap-plain",
-        "level": "85"
+        "name": "TypeScript",
+        "class": "devicon-typescript-plain",
+        "level": "90"
       },
       {
         "name": "PostgreSql",
