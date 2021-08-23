@@ -81,28 +81,32 @@
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
-      "mainTech": ["Angular 8/9/10"],
+      "company": "Your company!",
+      "title": "Developer Jr",
+      "years": "present",
+      "mainTech": [ "ReactJS - NodeJS" ],
       "technologies": [
-        "REST API",
-        "RxJS",
+        "Code",
+        "React",
+        "NodeJS",
+        "ReactJS",
         "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+        "TypeScript"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
-      "mainTech": ["Angular 7/8"],
-      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+      "company": "BairedDev",
+      "title": "Tech Recruiter",
+      "years": "02/2021 - 05/2021",
+      "mainTech": [ "ERP" ],
+      "technologies": [ "Search", "Skype", "ERP" ]
+    },
+    {
+      "company": "Celebrity - MSC",
+      "title": "Shorex Staff / Guest Services",
+      "years": "2012 - 2020",
+      "mainTech": [ "Fidelio, Excel" ],
+      "technologies": [ "Ship", "Cruises", "Sales", "Customer Relations" ]
     }
   ]
 }
