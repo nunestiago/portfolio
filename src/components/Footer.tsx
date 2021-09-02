@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import translations from '../translate/basicInfo.json';
+import translations from "../translate/basicInfo.json";
 
 function Footer() {
-  const name = translations.basic_info.name;
-  const social = translations.basic_info.social;
+  const { name } = translations.basic_info;
+  const { social } = translations.basic_info;
+
   return (
     <footer>
       <div className="col-md-12">
@@ -25,8 +26,7 @@ function Footer() {
               <a href="https://github.com/Dorota1997" rel="noopener noreferrer">
                 Dorota Gil
               </a>{" "}
-              || Recode in TS :{" "}
-              <a href="https://github.com/nunestiago">{name}</a>
+              || Recode in TS : <a href="https://github.com/nunestiago">{name}</a>
             </small>
           </div>
         </div>

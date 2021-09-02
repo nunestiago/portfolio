@@ -1,16 +1,14 @@
 // eslint disable-next-line
-import Iconify from '@iconify/iconify';
-import { Icon } from '@iconify/react';
-import React from 'react';
-import { useTranslation } from 'react-i18next';
+import "@iconify/iconify";
 
-import profilepic from '../assets/profile.png';
+import { Icon } from "@iconify/react";
+import React from "react";
+import { useTranslation } from "react-i18next";
 
-// TODO tenho que importar o import Iconify from '@iconify/iconify'; mas sem usar
+import profilepic from "../assets/profile.png";
 
 function About() {
   const { t } = useTranslation();
-  console.log(Iconify);
 
   return (
     <section id="about">
@@ -24,18 +22,9 @@ function About() {
               <span style={{ cursor: "auto" }}>
                 <img height="250px" src={profilepic} alt="Avatar placeholder" />
 
-                <Icon
-                  icon="logos:nodejs"
-                  style={{ fontSize: "350%", margin: "9% 5% 0 5%" }}
-                />
-                <Icon
-                  icon="logos:react"
-                  style={{ fontSize: "350%", margin: "9% 5% 0 5%" }}
-                />
-                <Icon
-                  icon="logos:typescript-icon"
-                  style={{ fontSize: "350%", margin: "9% 5% 0 5%" }}
-                />
+                <Icon icon="logos:nodejs" style={{ fontSize: "350%", margin: "9% 5% 0 5%" }} />
+                <Icon icon="logos:react" style={{ fontSize: "350%", margin: "9% 5% 0 5%" }} />
+                <Icon icon="logos:typescript-icon" style={{ fontSize: "350%", margin: "9% 5% 0 5%" }} />
               </span>
             </div>
           </div>
@@ -44,23 +33,9 @@ function About() {
             <div className="col-md-10">
               <div className="card">
                 <div className="card-header">
-                  <span
-                    className="iconify"
-                    data-icon="emojione:red-circle"
-                    data-inline="false"
-                  ></span>{" "}
-                  &nbsp;{" "}
-                  <span
-                    className="iconify"
-                    data-icon="twemoji:yellow-circle"
-                    data-inline="false"
-                  ></span>{" "}
-                  &nbsp;{" "}
-                  <span
-                    className="iconify"
-                    data-icon="twemoji:green-circle"
-                    data-inline="false"
-                  ></span>
+                  <span className="iconify" data-icon="emojione:red-circle" data-inline="false"></span> &nbsp;{" "}
+                  <span className="iconify" data-icon="twemoji:yellow-circle" data-inline="false"></span> &nbsp;{" "}
+                  <span className="iconify" data-icon="twemoji:green-circle" data-inline="false"></span>
                 </div>
                 <div
                   className="card-body font-trebuchet text-justify ml-3 mr-3"
@@ -71,9 +46,7 @@ function About() {
                   }}
                 >
                   <br />
-                  <span className="wave">
-                    {t("info.basic_info.description_header")} :){" "}
-                  </span>
+                  <span className="wave">{t("info.basic_info.description_header")} :) </span>
                   <br />
                   <br />
                   {t("info.basic_info.description")}
