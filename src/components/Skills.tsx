@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import translations from '../translate/basicInfo.json';
+import translations from "../translate/basicInfo.json";
 
 function Skills() {
   const data = translations.skills.icons;
+
   return (
     <section id="skills">
       <div className="col-md-12">
@@ -19,10 +20,7 @@ function Skills() {
                 <span>
                   <div className="text-center skills-tile">
                     <i className={skills.class} style={{ fontSize: "5rem" }}>
-                      <p
-                        className="text-center"
-                        style={{ fontSize: "30%", marginTop: "4px" }}
-                      >
+                      <p className="text-center" style={{ fontSize: "30%", marginTop: "4px" }}>
                         {skills.name}
                       </p>
                     </i>

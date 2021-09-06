@@ -1,11 +1,11 @@
-import 'react-vertical-timeline-component/style.min.css';
+import "react-vertical-timeline-component/style.min.css";
 
-import React from 'react';
-import { Badge } from 'react-bootstrap';
-import { useTranslation } from 'react-i18next';
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import React from "react";
+import { Badge } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
+import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 
-import translations from '../translate/en.json';
+import translations from "../translate/en.json";
 
 function Experience() {
   const { t } = useTranslation();
@@ -34,36 +34,26 @@ function Experience() {
                 color: "#fff",
                 textAlign: "center",
               }}
-              icon={
-                <i
-                  className={`fas fa-${work.technologies[0].toLowerCase()} experience-icon`}
-                ></i>
-              }
+              icon={<i className={`fas fa-${work.technologies[0].toLowerCase()} experience-icon`}></i>}
               key={i}
             >
               <div style={{ textAlign: "left", marginBottom: "4px" }}>
-                {work.mainTech.map((technology, i) => (
-                  <Badge pill className="main-badge mr-2 mb-2" key={i}>
+                {work.mainTech.map((technology, index) => (
+                  <Badge pill className="main-badge mr-2 mb-2" key={index}>
                     {technology}
                   </Badge>
                 ))}
               </div>
 
-              <h3
-                className="vertical-timeline-element-title"
-                style={{ textAlign: "left" }}
-              >
+              <h3 className="vertical-timeline-element-title" style={{ textAlign: "left" }}>
                 {t(`info.experience.${i}.title`)}
               </h3>
-              <h4
-                className="vertical-timeline-element-subtitle"
-                style={{ textAlign: "left" }}
-              >
+              <h4 className="vertical-timeline-element-subtitle" style={{ textAlign: "left" }}>
                 {t(`info.experience.${i}.company`)}
               </h4>
               <div style={{ textAlign: "left", marginTop: "15px" }}>
-                {work.technologies.map((technology, i) => (
-                  <Badge pill className="experience-badge mr-2 mb-2" key={i}>
+                {work.technologies.map((technology, index) => (
+                  <Badge pill className="experience-badge mr-2 mb-2" key={index}>
                     {technology}
                   </Badge>
                 ))}
@@ -76,9 +66,7 @@ function Experience() {
               color: "#fff",
               textAlign: "center",
             }}
-            icon={
-              <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
-            }
+            icon={<i className="fas fa-hourglass-start mx-auto experience-icon"></i>}
           />
         </VerticalTimeline>
       </div>

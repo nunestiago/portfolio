@@ -78,17 +78,18 @@
   ],
   "experience": [
     {
-      "company": "Your company!",
-      "title": "Developer Jr",
-      "years": "present",
+      "company": "Marttech",
+      "title": "Full Stack Developer",
+      "years": "Aug/2021 - present",
       "mainTech": ["ReactJS - NodeJS"],
       "technologies": [
         "Code",
         "React",
         "NodeJS",
         "ReactJS",
-        "JavaScript",
-        "TypeScript"
+        "React Native",
+        "JavaScript"
+
       ]
     },
     {

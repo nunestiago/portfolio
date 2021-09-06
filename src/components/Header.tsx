@@ -1,54 +1,52 @@
-import Emoji from 'a11y-react-emoji';
-import React, { useState } from 'react';
-import { useTranslation } from 'react-i18next';
-import Switch from 'react-switch';
-import Typewriter from 'typewriter-effect';
+import Emoji from "a11y-react-emoji";
+import React, { useState } from "react";
+import type { TFunction } from "react-i18next";
+import { useTranslation } from "react-i18next";
+import Switch from "react-switch";
+import Typewriter from "typewriter-effect";
 
-import codeCat from '../assets/codecat.gif';
-import self from '../translate/basicInfo.json';
+import codeCat from "../assets/codecat.gif";
+import self from "../translate/basicInfo.json";
 
-const HeaderTitleTypeAnimation = React.memo(
-  () => {
-    return (
-      <div className="title-styles">
-        <Typewriter
-          options={{
-            strings: self.basic_info.titles,
-            autoStart: true,
-            loop: true,
-          }}
-        />
-      </div>
-    );
-  },
-  (props, prevProp) => true
-);
+// eslint-disable-next-line react/display-name
+const HeaderTitleTypeAnimation = React.memo(() => {
+  return (
+    <div className="title-styles">
+      <Typewriter
+        options={{
+          strings: self.basic_info.titles,
+          autoStart: true,
+          loop: true,
+        }}
+      />
+    </div>
+  );
+});
 
 function Header() {
   const [checked, setChecked] = useState(false);
   const { i18n } = useTranslation();
-  const changeLanguageHandler = (lang: string | undefined): void => {
-    i18n.changeLanguage(lang);
-  };
+
+  async function changeLanguageHandler(lang: string | undefined): Promise<TFunction> {
+    return i18n.changeLanguage(lang);
+  }
+
+  function setTheme() {
+    const dataThemeAttribute = "data-theme";
+    const { body } = document;
+    const newTheme = body.getAttribute(dataThemeAttribute) === "dark" ? "light" : "dark";
+
+    body.setAttribute(dataThemeAttribute, newTheme);
+  }
 
   function onThemeSwitchChange() {
     setChecked(!checked);
     setTheme();
   }
 
-  function setTheme() {
-    const dataThemeAttribute = "data-theme";
-    const body = document.body;
-    const newTheme =
-      body.getAttribute(dataThemeAttribute) === "dark" ? "light" : "dark";
-    body.setAttribute(dataThemeAttribute, newTheme);
-  }
   return (
     <>
-      <header
-        id="home"
-        style={{ height: window.innerHeight - 140, display: "block" }}
-      >
+      <header id="home" style={{ height: window.innerHeight - 140, display: "block" }}>
         <div className="row aligner" style={{ height: "100%" }}>
           <div className="col-md-12">
             <div>
@@ -57,15 +55,11 @@ function Header() {
               data-icon="la:laptop-code"
               data-inline="false"
             ></span> */}
-              <img
-                src={codeCat}
-                alt="coding cat"
-                style={{ borderRadius: 16 }}
-              />
+              <img src={codeCat} alt="coding cat" style={{ borderRadius: 16 }} />
               <br />
               <h1 className="mb-0">
                 <Typewriter
-                  onInit={(typewriter) => {
+                  onInit={typewriter => {
                     typewriter.typeString(self.basic_info.name).start();
                   }}
                 />
@@ -113,10 +107,7 @@ function Header() {
         </div>
       </header>
       <div className="col-md-12 mx-auto text-center language">
-        <div
-          onClick={() => changeLanguageHandler("pt")}
-          style={{ display: "inline" }}
-        >
+        <div onClick={async () => changeLanguageHandler("pt")} style={{ display: "inline" }}>
           <Emoji
             symbol="🇧🇷"
             label="brazilian flag"
@@ -129,13 +120,10 @@ function Header() {
             }}
           />
         </div>
-        <div
-          onClick={() => changeLanguageHandler("en")}
-          style={{ display: "inline" }}
-        >
+        <div onClick={async () => changeLanguageHandler("en")} style={{ display: "inline" }}>
           <Emoji
             symbol="🇺🇸"
-            onClick={() => changeLanguageHandler("en")}
+            onClick={async () => changeLanguageHandler("en")}
             label="sun"
             style={{
               height: "100%",
