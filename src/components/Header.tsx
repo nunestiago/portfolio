@@ -9,22 +9,19 @@ import codeCat from "../assets/codecat.gif";
 import self from "../translate/basicInfo.json";
 
 // eslint-disable-next-line react/display-name
-const HeaderTitleTypeAnimation = React.memo(
-  () => {
-    return (
-      <div className="title-styles">
-        <Typewriter
-          options={{
-            strings: self.basic_info.titles,
-            autoStart: true,
-            loop: true,
-          }}
-        />
-      </div>
-    );
-  },
-  (props, prevProp) => true,
-);
+const HeaderTitleTypeAnimation = React.memo(() => {
+  return (
+    <div className="title-styles">
+      <Typewriter
+        options={{
+          strings: self.basic_info.titles,
+          autoStart: true,
+          loop: true,
+        }}
+      />
+    </div>
+  );
+});
 
 function Header() {
   const [checked, setChecked] = useState(false);
