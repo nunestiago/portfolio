@@ -74,13 +74,105 @@
           "name": "JavaScript"
         }
       ]
+    },
+    {
+      "title": "Pomodoro TS",
+      "startDate": "2021",
+      "description": "An app I built during my Typescript practices.",
+      "images": [
+        "images/portfolio/pomodoro.png",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://nunestiago.github.io/PomodoroTS/",
+      "technologies": [
+        {
+          "class": "devicon-react-original colored",
+          "name": "React"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-css3-plain-wordmark colored",
+          "name": "CSS"
+        }
+      ]
+    }
+    ,{
+      "title": "Genius",
+      "startDate": "2021",
+      "description": "An app I built with HTML, CSS and JS vanilla as practice on the Eduzz bootcamp.",
+      "images": [
+        "images/portfolio/genius.png",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://nunestiago.github.io/dio-html-genius/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain-wordmark colored",
+          "name": "HTML"
+        },        {
+          "class": "devicon-css3-plain-wordmark colored",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain colored",
+          "name": "JavaScript"
+        }
+      ]
+    },{
+      "title": "Mock E-commerce",
+      "startDate": "2021",
+      "description": "An small e-commerce front end built while studying context and local storage.",
+      "images": [
+        "images/portfolio/marttech.gif",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://brave-shannon-22afca.netlify.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-original colored",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain colored",
+          "name": "Node"
+        },
+        {
+          "class": "devicon-materialui-plain colored",
+          "name": "Material-UI"
+        }
+      ]
+    } ,{
+      "title": "Travel",
+      "startDate": "2020",
+      "description": "Website created during DevEd Creative Websites course.",
+      "images": [
+        "images/portfolio/days.gif",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://brave-meninsky-550154.netlify.app/index.html",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain-wordmark colored",
+          "name": "HTML"
+        },        {
+          "class": "devicon-css3-plain-wordmark colored",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain colored",
+          "name": "JavaScript"
+        }
+      ]
     }
   ],
   "experience": [
     {
-      "company": "Marttech",
+      "company": "Self employed",
       "title": "Full Stack Developer",
-      "years": "Aug/2021 - present",
+      "years": "Jun/2021 - present",
       "mainTech": ["ReactJS - NodeJS"],
       "technologies": [
         "Code",
