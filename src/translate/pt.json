@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Olá!",
-    "description": "Psicólogo de formação, visando qualificações na área de desenvolvimento para transição de carreira. Atuação com recrutamento em cargos em TI nas mais diversas especialidades. Experiência no desenvolvimento de pessoas e equipes, bem como relacionamento direto com clientes. Apto a treinar e se relacionar com pessoas e equipes com alta diversidade. Experiência com metodologias ágeis.",
+    "description": "Desenvolvedor com conhecimento em Javascript, com projetos em JS Vanilla, Node JS, React JS, Next JS e Typescript. Base de dados em SQL, postgres e MongoDB. Busco uma empresa que possa me apoiar e auxiliar nesse processo de crescimento, que possamos ter trocas de conhecimentos e evolução mútua e colaborativa.",
     "section_name": {
       "about": "Sobre",
       "projects": "Projetos",
@@ -10,6 +10,30 @@
     }
   },
   "projects": [
+    {
+      "title": "Billing System",
+      "startDate": "2021",
+      "description": "Projeto final do bootcamp da Cubos Academy em que foi feito um sistema de registro de cobranças fullstack.",
+      "images": [
+        "images/portfolio/kartbill.gif",
+        "images/portfolio/animal-shelter/p2.jpg"
+      ],
+      "url": "https://stupefied-leavitt-2f0c60.netlify.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-original colored",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain colored",
+          "name": "Node"
+        },
+        {
+          "class": "devicon-materialui-plain colored",
+          "name": "Material-UI"
+        }
+      ]
+    },
     {
       "title": "Portifólio",
       "startDate": "2021",
@@ -21,16 +45,16 @@
       "url": "",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-react-original colored",
+          "name": "React"
         },
         {
           "class": "devicon-typescript-plain",
           "name": "TypeScript"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-sass-original colored",
+          "name": "Sass"
         }
       ]
     },
@@ -42,15 +66,19 @@
         "images/portfolio/photography/p1.jpg",
         "images/portfolio/photography/p2.jpg"
       ],
-      "url": "https://github.com",
+      "url": "https://marketcilindros.netlify.app/",
       "technologies": [
         {
-          "class": "devicon-react-original",
+          "class": "devicon-react-original colored",
           "name": "React"
         },
         {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
+          "class": "devicon-nodejs-plain colored",
+          "name": "Node"
+        },
+        {
+          "class": "devicon-materialui-plain colored",
+          "name": "Material-UI"
         }
       ]
     },
@@ -174,9 +202,23 @@
   ],
   "experience": [
     {
-      "company": "Your company!",
-      "title": "Developer Jr",
-      "years": "present",
+      "company": "Ford Motor Company",
+      "title": "Fullstack Developer",
+      "years": "11/2021 - present",
+      "mainTech": ["Angular - Spring Boot"],
+      "technologies": [
+        "Code",
+        "Angular",
+        "TypeScript",
+        "Java",
+        "Spring Boot",
+        "JUnit"
+      ]
+    },
+    {
+      "company": "Marttech",
+      "title": "Backend Developer Jr",
+      "years": "10/2021 - 11/2021",
       "mainTech": [ "ReactJS - NodeJS" ],
       "technologies": [
         "Code",

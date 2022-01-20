@@ -11,6 +11,30 @@
   },
   "projects": [
     {
+      "title": "Billing System",
+      "startDate": "2021",
+      "description": "Final full stack project developed for Cubos Academy bootcamp.",
+      "images": [
+        "images/portfolio/kartbill.gif",
+        "images/portfolio/animal-shelter/p2.jpg"
+      ],
+      "url": "https://stupefied-leavitt-2f0c60.netlify.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-original colored",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain colored",
+          "name": "Node"
+        },
+        {
+          "class": "devicon-materialui-plain colored",
+          "name": "Material-UI"
+        }
+      ]
+    },
+    {
       "title": "Portfolio",
       "startDate": "2021",
       "description": "Found this amazing portfolio layout by Dorota Gil on github and rewrote in Typescript with i-18-next to switch languages.",
@@ -170,9 +194,23 @@
   ],
   "experience": [
     {
-      "company": "Self employed",
-      "title": "Full Stack Developer",
-      "years": "Jun/2021 - present",
+      "company": "Ford Motor Company",
+      "title": "Fullstack Developer",
+      "years": "11/2021 - present",
+      "mainTech": ["Angular - Spring Boot"],
+      "technologies": [
+        "Code",
+        "Angular",
+        "TypeScript",
+        "Java",
+        "Spring Boot",
+        "JUnit"
+      ]
+    },
+    {
+      "company": "Marttech",
+      "title": "Backend Developer Jr",
+      "years": "10/2021 - 11/2021",
       "mainTech": ["ReactJS - NodeJS"],
       "technologies": [
         "Code",

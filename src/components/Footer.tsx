@@ -13,7 +13,7 @@ function Footer() {
           {social.map((network, i) => (
             <span key={i} className="m-4">
               <a href={network.url} target="_blank" rel="noopener noreferrer">
-                <i className={network.class}></i>
+                <i className={network.class} style={{ fontSize: "3.5rem" }}></i>
               </a>
             </span>
           ))}
